@@ -1,0 +1,3 @@
+/home/crane/编译原理/test1/Syntax Analyzer/build/CMakeFiles/edit_cache.dir
+/home/crane/编译原理/test1/Syntax Analyzer/build/CMakeFiles/rebuild_cache.dir
+/home/crane/编译原理/test1/Syntax Analyzer/build/CMakeFiles/parser.dir

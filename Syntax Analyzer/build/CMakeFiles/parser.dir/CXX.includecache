@@ -1,0 +1,90 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/crane/编译原理/test1/Syntax Analyzer/lexer.cpp
+lexer.h
+/home/crane/编译原理/test1/Syntax Analyzer/lexer.h
+iostream
+-
+cctype
+-
+
+/home/crane/编译原理/test1/Syntax Analyzer/lexer.h
+string
+-
+fstream
+-
+
+/home/crane/编译原理/test1/Syntax Analyzer/main.cpp
+recursive_parser.h
+/home/crane/编译原理/test1/Syntax Analyzer/recursive_parser.h
+predictive_parser.h
+/home/crane/编译原理/test1/Syntax Analyzer/predictive_parser.h
+iostream
+-
+fstream
+-
+string
+-
+
+/home/crane/编译原理/test1/Syntax Analyzer/predictive_parser.cpp
+predictive_parser.h
+/home/crane/编译原理/test1/Syntax Analyzer/predictive_parser.h
+iostream
+-
+sstream
+-
+fstream
+-
+
+/home/crane/编译原理/test1/Syntax Analyzer/predictive_parser.h
+string
+-
+vector
+-
+stack
+-
+map
+-
+memory
+-
+set
+-
+lexer.h
+/home/crane/编译原理/test1/Syntax Analyzer/lexer.h
+symbol_table.h
+/home/crane/编译原理/test1/Syntax Analyzer/symbol_table.h
+
+/home/crane/编译原理/test1/Syntax Analyzer/recursive_parser.cpp
+recursive_parser.h
+/home/crane/编译原理/test1/Syntax Analyzer/recursive_parser.h
+iostream
+-
+sstream
+-
+fstream
+-
+
+/home/crane/编译原理/test1/Syntax Analyzer/recursive_parser.h
+string
+-
+map
+-
+vector
+-
+memory
+-
+lexer.h
+/home/crane/编译原理/test1/Syntax Analyzer/lexer.h
+symbol_table.h
+/home/crane/编译原理/test1/Syntax Analyzer/symbol_table.h
+
+/home/crane/编译原理/test1/Syntax Analyzer/symbol_table.h
+string
+-
+
