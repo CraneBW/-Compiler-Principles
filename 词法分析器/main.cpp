@@ -1,12 +1,20 @@
 /**
  * @file main.cpp
  * @brief Pascal子集词法分析器的主程序
+ * @author 宁波大学 PTB
+ * @github https://github.com/CraneBW/-Compiler-Principles
+ */
+
+/**
+ * @file main.cpp
+ * @brief Pascal子集词法分析器的主程序
  */
 
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <iomanip>
+#include <string.h>
 #include "lexer.h"
 
 void printUsage() {
@@ -99,7 +107,20 @@ void processFile(const std::string& inputFile, const std::string& outputFile = "
 }
 
 int main(int argc, char* argv[]) {
+
+    const std::string COLOR_HEADER = "\033[1;32m"; // 亮绿色
+    const std::string COLOR_AUTHOR = "\033[1;36m"; // 青色
+    const std::string COLOR_LINK = "\033[4;34m";   // 蓝色带下划线
+    const std::string COLOR_RESET = "\033[0m";     // 重置样式
+
     // 检查命令行参数
+
+
+    if (argc == 1 && strcmp(argv[0], "exit")) {
+        std::cout << "Bye!" << std::endl;
+        return 1;
+    }
+
     if (argc < 2 || argc > 3) {
         printUsage();
         return 1;
@@ -107,8 +128,18 @@ int main(int argc, char* argv[]) {
     
     std::string inputFile = argv[1];
     std::string outputFile = (argc == 3) ? argv[2] : "";
-    
-    // 处理文件
+
+
+    std::cout << "\n"
+              << COLOR_HEADER
+              << "==========================================" << COLOR_RESET << "\n"
+              << COLOR_AUTHOR << "代码作者: " << COLOR_RESET
+              << "宁波大学 PTB\n"
+              << COLOR_AUTHOR << "开源地址: " << COLOR_RESET
+              << COLOR_LINK << "https://github.com/CraneBW/-Compiler-Principles" << COLOR_RESET << "\n"
+              << COLOR_HEADER << "==========================================" << COLOR_RESET
+              << std::endl;
+
     processFile(inputFile, outputFile);
     
     return 0;
