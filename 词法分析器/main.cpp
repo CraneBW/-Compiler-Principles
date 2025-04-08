@@ -57,7 +57,7 @@ void processFile(const std::string& inputFile, const std::string& outputFile = "
              << std::setw(20) << token.getValue() << std::endl;
     }
     
-    // 输出符号表（如果有）
+    // 输出符号表
     SymbolTable symbolTable = lexer.getSymbolTable();
     
     *out << std::endl;

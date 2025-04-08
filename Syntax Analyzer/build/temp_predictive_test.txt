@@ -1,0 +1,18 @@
+
+PROGRAM test4;
+CONST max = 100;
+    min = 0;
+VAR x: INTEGER;
+    y: LONG;
+PROCEDURE check(a: INTEGER; b: LONG);
+BEGIN
+    IF a < max THEN
+        x := a;
+    IF b > min THEN
+        y := b;
+END;
+BEGIN
+    x := max;
+    y := min;
+    check(x, y);
+END.

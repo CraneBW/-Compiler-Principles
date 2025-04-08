@@ -1,0 +1,8 @@
+PROGRAM MyTest;
+CONST a = 10;
+VAR b: INTEGER;
+BEGIN
+  b := a + 5;
+  IF b > 10 THEN
+    b := b - 1;
+END.

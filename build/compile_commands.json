@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/crane/编译原理/test1/build",
+  "command": "/usr/bin/g++   -I\"/home/crane/编译原理/test1/Syntax Analyzer\"  -g   -std=gnu++14 -o CMakeFiles/parser.dir/main.cpp.o -c \"/home/crane/编译原理/test1/Syntax Analyzer/main.cpp\"",
+  "file": "/home/crane/编译原理/test1/Syntax Analyzer/main.cpp"
+},
+{
+  "directory": "/home/crane/编译原理/test1/build",
+  "command": "/usr/bin/g++   -I\"/home/crane/编译原理/test1/Syntax Analyzer\"  -g   -std=gnu++14 -o CMakeFiles/parser.dir/recursive_parser.cpp.o -c \"/home/crane/编译原理/test1/Syntax Analyzer/recursive_parser.cpp\"",
+  "file": "/home/crane/编译原理/test1/Syntax Analyzer/recursive_parser.cpp"
+},
+{
+  "directory": "/home/crane/编译原理/test1/build",
+  "command": "/usr/bin/g++   -I\"/home/crane/编译原理/test1/Syntax Analyzer\"  -g   -std=gnu++14 -o CMakeFiles/parser.dir/predictive_parser.cpp.o -c \"/home/crane/编译原理/test1/Syntax Analyzer/predictive_parser.cpp\"",
+  "file": "/home/crane/编译原理/test1/Syntax Analyzer/predictive_parser.cpp"
+},
+{
+  "directory": "/home/crane/编译原理/test1/build",
+  "command": "/usr/bin/g++   -I\"/home/crane/编译原理/test1/Syntax Analyzer\"  -g   -std=gnu++14 -o CMakeFiles/parser.dir/lexer.cpp.o -c \"/home/crane/编译原理/test1/Syntax Analyzer/lexer.cpp\"",
+  "file": "/home/crane/编译原理/test1/Syntax Analyzer/lexer.cpp"
+}
+]

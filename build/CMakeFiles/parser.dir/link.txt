@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/parser.dir/main.cpp.o CMakeFiles/parser.dir/recursive_parser.cpp.o CMakeFiles/parser.dir/predictive_parser.cpp.o CMakeFiles/parser.dir/lexer.cpp.o  -o parser 
